@@ -1,0 +1,27 @@
+<jaxb:bindings 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+	version="2.0"
+	jaxb:extensionBindingPrefixes="xjc">
+
+	<jaxb:globalBindings generateElementProperty="false">
+		<jaxb:javaType name="Integer" 
+		xmlType="xs:positiveInteger" 
+		printMethod="javax.xml.bind.DatatypeConverter.printInt"   
+		parseMethod="javax.xml.bind.DatatypeConverter.parseInt"/>
+
+		<jaxb:javaType name="Integer" 
+		xmlType="xs:integer" 
+		printMethod="javax.xml.bind.DatatypeConverter.printInt"   
+		parseMethod="javax.xml.bind.DatatypeConverter.parseInt"/>
+
+		<jaxb:javaType name="Double" 
+		xmlType="xs:decimal" 
+		printMethod="javax.xml.bind.DatatypeConverter.printDouble"   
+		parseMethod="javax.xml.bind.DatatypeConverter.parseDouble"/>
+
+		<xjc:simple/>
+	</jaxb:globalBindings>
+
+</jaxb:bindings>

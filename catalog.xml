@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/usr/home/monstr/NetBeansProjects/VALD/../../work/VAMDC/Uppsala/xsams-0.199.xsd" uri="xml-resources/jaxb/xsams/xsams-0.199.xsd"/>
+    <system systemId="file:/usr/home/monstr/NetBeansProjects/VALD/../../work/VAMDC/xsams-0.1.xsd" uri="xml-resources/jaxb/xsams/xsams-0.1.xsd"/>
+    <system systemId="file:/usr/home/monstr/NetBeansProjects/VALD/../../work/VAMDC/Uppsala/xsams.xjb" uri="xml-resources/jaxb/xsams/xsams.xjb.xml"/>
+</catalog>
+
+
